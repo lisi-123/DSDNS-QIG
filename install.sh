@@ -70,10 +70,6 @@ tar -xzf dsdns.tar.gz
 tar -xzf ip2region.tar.gz -C data/
 chmod +x dsdns
 
-# 修正配置路径
-sed -i 's|ip2region_v4: "./ip2region_v4.xdb"|ip2region_v4: "./data/ip2region_v4.xdb"|g' config.yaml
-sed -i 's|ip2region_v6: "./ip2region_v6.xdb"|ip2region_v6: "./data/ip2region_v6.xdb"|g' config.yaml
-
 # 自动生成随机 JWT 密钥（如果当前 secret 是默认值）
 if grep -q 'secret: "change-me-to-a-random-string"' config.yaml; then
     NEW_SECRET=$(head /dev/urandom | tr -dc A-Za-z0-9 | head -c 32)
