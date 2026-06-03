@@ -36,7 +36,7 @@ netfilter-persistent save
 
 ```
 
-安装完成后，访问 http://ip:8053 打开控制面板
+访问 `http://vps的ip:8053` 打开控制面板
 
 默认没有开启tls，有需要自己装nginx反代
 
