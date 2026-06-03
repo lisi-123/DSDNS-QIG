@@ -22,6 +22,10 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/lisi-123/DSDNS-QIG/main/
 
 安装后，项目文件在 /opt/dsdns ，包括可执行文件，配置文件以及 sqlite文件
 
+访问 `http://vps的ip:8053` 打开控制面板
+
+默认没有开启tls，有需要自己装nginx反代
+
 
 ## 端口转发
 
@@ -35,10 +39,6 @@ apt install iptables-persistent -y
 netfilter-persistent save
 
 ```
-
-访问 `http://vps的ip:8053` 打开控制面板
-
-默认没有开启tls，有需要自己装nginx反代
 
 
 ## 使用方法
