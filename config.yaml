@@ -7,8 +7,8 @@ web:
 db:
   path: "./dsdns.db"       # SQLite 数据库文件
 geo:
-  ip2region_v4: "./ip2region_v4.xdb"
-  ip2region_v6: "./ip2region_v6.xdb"
+  ip2region_v4: "./data/ip2region_v4.xdb"
+  ip2region_v6: "./data/ip2region_v6.xdb"
 jwt:
   secret: "change-me-to-a-random-string"   # 生产环境务必修改
   expire_hours: 24
