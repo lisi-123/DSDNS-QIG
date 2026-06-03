@@ -82,7 +82,7 @@ dsdns.example.com   &emsp;  NS   &emsp;&emsp;  ns2.example.com
 接下来去 DSDNS 里添加 dsdns.example.com ，并添加a，aaaa或cname记录，就可以生效了
 
 
-如果要填写中国大陆 的 “省/市” 字段，注意填写规则：
+如果要填写 中国大陆 的 “省/市” 字段，注意填写规则：
 
 北京市填写 北京 ，重庆市填写 重庆 ，四川省填写 四川 ，江苏省填写 江苏 ，依此类推
 
