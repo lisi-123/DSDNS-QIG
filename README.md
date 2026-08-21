@@ -90,7 +90,7 @@ dsdns.tuoguan.xyz   &emsp;  NS   &emsp;&emsp;  ns2.example.com
 
 <br>
 
-手动更新到最新的ip库 
+如果项目很久没更新，建议手动更新到最新的ip库 
 
 ```bash
 cd /opt/dsdns/data && \
