@@ -89,7 +89,14 @@ dsdns.tuoguan.xyz   &emsp;  NS   &emsp;&emsp;  ns2.example.com
 三网的准确率挺高，到省一级的准确率还可以。到市那一级就图个乐子，只是ip库里有这个字段顺手做一下
 
 
+手动更新ip库 
 
+```bash
+cd /opt/dsdns/data && \
+wget -O ip2region_v4.xdb https://raw.githubusercontent.com/lionsoul2014/ip2region/master/data/ip2region_v4.xdb && \
+wget -O ip2region_v6.xdb https://raw.githubusercontent.com/lionsoul2014/ip2region/master/data/ip2region_v6.xdb
+
+```
 
 
 <br><br><br>
