@@ -88,8 +88,9 @@ dsdns.tuoguan.xyz   &emsp;  NS   &emsp;&emsp;  ns2.example.com
 
 三网的准确率挺高，到省一级的准确率还可以。到市那一级就图个乐子，只是ip库里有这个字段顺手做一下
 
+<br>
 
-手动更新ip库 
+手动更新到最新的ip库 
 
 ```bash
 cd /opt/dsdns/data && \
