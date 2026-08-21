@@ -29,6 +29,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/lisi-123/DSDNS-QIG/main/
 ## 端口转发(首次安装必须执行)
 
 转发 UDP 和 TCP 的 53 端口到 5353，并保存iptables规则
+
 config.yaml 默认使用5353，如果需要使用其他端口，请自行修改
 
 ```bash
