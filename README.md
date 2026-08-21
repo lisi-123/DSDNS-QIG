@@ -77,9 +77,9 @@ dsdns.tuoguan.xyz   &emsp;  NS   &emsp;&emsp;  ns2.example.com
 
 <br>
 
-做完就相当于把  dsdns.example.com 托管到自建的 DSDNS 系统了
+做完就相当于把  dsdns.tuoguan.xyz 托管到自建的 DSDNS 系统了
 
-接下来去 DSDNS 里添加 dsdns.example.com ，并添加a，aaaa或cname记录，就可以生效了
+接下来去 DSDNS 里添加 dsdns.tuoguan.xyz ，并添加a，aaaa或cname记录，就可以生效了
 
 
 如果要填写 中国大陆 的 “省/市” 字段，注意填写规则：
