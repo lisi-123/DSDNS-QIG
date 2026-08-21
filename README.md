@@ -43,7 +43,7 @@ netfilter-persistent save
 
 ## 使用方法
 
-假设vps的ip是 11.22.33.44
+假设搭建DSDNS 的vps的ip是 11.22.33.44
 
 假设你有两个域名 example.com ，tuoguan.xyz
 
