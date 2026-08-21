@@ -1,6 +1,6 @@
 # DSDNS - 智能地理 DNS 服务
 
-DSDNS 是一个基于 GeoIP 的智能 DNS 解析系统，支持根据用户地理位置（国家、运营商、省份/城市）返回不同的 DNS 解析结果。支持 A、AAAA、CNAME 记录类型，提供 Web 管理界面。
+DSDNS 是一个基于 ip2region 的智能 DNS 解析系统，支持根据用户地理位置（国家、运营商、省份/城市）返回不同的 DNS 解析结果。支持 A、AAAA、CNAME 记录类型，提供 Web 管理界面。
 
 ## 功能特性
 
