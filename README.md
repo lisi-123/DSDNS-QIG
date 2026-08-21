@@ -45,7 +45,7 @@ netfilter-persistent save
 
 假设vps的ip是 11.22.33.44
 
-假设你有一个域名 example.com 
+假设你有两个域名 example.com ，tuoguan.xyz
 
 
 ### 1.创建ns域名
@@ -57,7 +57,7 @@ netfilter-persistent save
 
 ### 2.托管域名到DSDNS
 
-假设要托管 dsdns.example.com (或其他你控制的域名都可以)
+假设要托管 dsdns.tuoguan.xyz (任意属于你控制的域名和子域名都可以，名称随意)
 
 做两个ns记录 
 
@@ -68,9 +68,9 @@ netfilter-persistent save
 
   &emsp;&emsp;&emsp;     名称    &emsp;&emsp;&emsp;&emsp;       类型     &emsp;&emsp;&emsp;&emsp;     内容
 
-dsdns.example.com   &emsp;  NS   &emsp;&emsp;  ns1.example.com
+dsdns.tuoguan.xyz   &emsp;  NS   &emsp;&emsp;  ns1.example.com
 
-dsdns.example.com   &emsp;  NS   &emsp;&emsp;  ns2.example.com
+dsdns.tuoguan.xyz   &emsp;  NS   &emsp;&emsp;  ns2.example.com
 
 
 ———————————————————————————————————————
