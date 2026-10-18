@@ -57,7 +57,7 @@ dsdns start
 
 ## 使用方法
 
-假设搭建 DSDNS 的vps的ip是 11.22.33.44
+假设搭建 DSDNS 的vps的ip是 11.22.33.44，
 
 假设你有两个域名 example.com ，tuoguan.xyz
 
@@ -67,6 +67,12 @@ dsdns start
 创建 ns1.example.com 的a记录，解析 11.22.33.44
 
 创建 ns2.example.com 的a记录，解析 11.22.33.44
+
+如果需要使用ipv6，再额外添加两条记录
+
+创建 ns1.example.com 的aaaa记录，解析 vps的ipv6
+
+创建 ns2.example.com 的aaaa记录，解析 vps的ipv6
 
 
 ### 2.托管域名到DSDNS
