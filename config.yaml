@@ -6,6 +6,9 @@ web:
   listen: ":8053"           # Web 管理界面端口
 db:
   path: "./dsdns.db"       # SQLite 数据库文件
+probe:
+  ipv4_enabled: true
+  ipv6_enabled: true
 geo:
   ip2region_v4: "./data/ip2region_v4.xdb"
   ip2region_v6: "./data/ip2region_v6.xdb"
